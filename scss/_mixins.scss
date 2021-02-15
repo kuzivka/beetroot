@@ -1,0 +1,15 @@
+@mixin btn {
+    background: linear-gradient(45deg, #496bfe 40%, #5474fd 40%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Aleo';
+    letter-spacing: 2px;
+    height: 60px;
+    padding: 0 8px;
+    border: none;
+    min-width: fit-content;
+    &:hover{
+        background: #333333;
+    }
+}
